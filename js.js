@@ -1,5 +1,5 @@
 function removeActiveClass(){
-  const tabs = document.getElementsByClassName('tab-link')
+  const tabs = document.querySelectorAll('.tab-link')
   tabs.forEach(item => item.classList.remove('tab-link_active'))
 }
 
