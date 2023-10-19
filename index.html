@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+
+      <div class="container">
+        <div class="header">
+          <button class="tab-link" onclick="openPage('my-fonts', this)">my fonts</button>
+          <button class="tab-link tab-link_active" onclick="openPage('buy-fonts', this)">buy fonts</button>
+  
+        </div>
+        <div class="frame">
+
+          <div id="my-fonts" class="tab-content">
+            <div class="my-fonts__container">
+              <div>
+                <h3>My Fonts</h3>
+                <p>Dummy text..</p>
+              </div>
+            </div>
+          </div>
+          
+          <div id="buy-fonts" class="tab-content">
+
+            <div class="cards">
+
+              <div class="card__column_1">
+                <div class="card">
+
+                    <input type="radio" id="card1" name="card-group" checked>
+                    <label for="card1" class="radio__detail" >
+                      <div class="card__square">
+                        <div class="card__square_inner card_color_green">M</div>  
+                      </div>
+                      <div class="card__text">Merriweather project is led by Sorkin Type</div>
+                    </label>
+
+                </div>
+              </div>
+
+              <div class="card__column_2">
+                <div class="card">
+
+                    <input type="radio" id="card2"  name="card-group">
+                    <label for="card2" class="radio__detail radio__text-one-row">
+                      <div class="card__square">
+                        <div class="card__square_inner card_color_pink">R</div>  
+                      </div>
+                      <div class="card__text">Roboto doesn't compromise, allowing letters</div>                      
+                    </label>
+                </div>
+              
+                <div class="card">
+
+                    <input type="radio" id="card3" name="card-group">
+                    <label for="card3" class="radio__detail radio__text-one-row">
+                      <div class="card__square">
+                        <div class="card__square_inner card_color_blue">NS
+                        </div>  
+                      </div>
+                      <div class="card__text">
+                        Noto Sans covers over 30 scripts
+                      </div>
+                    </label>
+
+                </div>
+              </div>
+                
+            </div>
+          </div>
+          
+        </div>
+
+    </div>
+  </main>
+
+
+<script src="js.js"></script>
+   
+</body>
+</html> 
