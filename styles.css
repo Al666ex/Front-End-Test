@@ -162,24 +162,14 @@ h3 {
 }
 
 input[type="radio"] {
-  /* appearance: none; */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  height: 13px;
-  background-color: #99a1b1;
-  border-radius: 100%;
 }
 
 .card input[type="radio"]:checked+.radio__detail {
   opacity: 0.5;
 }
-
-
-input[type="radio"]:checked {
-  background-color: #cbcfd8;
-}
-
 
 .radio__text-one-row {
   display: flex;
